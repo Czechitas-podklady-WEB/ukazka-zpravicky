@@ -22,7 +22,7 @@ mainElement.innerHTML += `
   <div class="article-card">
     <h2>${articles.prase_pekac.title}</h2>
     <p>${articles.prase_pekac.lead}</p>
-    <a href="article.html?article=prase_pekac">Přečíst celý článek</a>
+    <a href="article.html#prase_pekac">Přečíst celý článek</a>
   </div>
 `;
 
@@ -30,7 +30,7 @@ mainElement.innerHTML += `
   <div class="article-card">
     <h2>${articles.kocour_felix.title}</h2>
     <p>${articles.kocour_felix.lead}</p>
-    <a href="article.html?article=kocour_felix">Přečíst celý článek</a>
+    <a href="article.html#kocour_felix">Přečíst celý článek</a>
   </div>
 `;
 
@@ -38,6 +38,6 @@ mainElement.innerHTML += `
   <div class="article-card">
     <h2>${articles.veverka_viki.title}</h2>
     <p>${articles.veverka_viki.lead}</p>
-    <a href="article.html?article=veverka_viki">Přečíst celý článek</a>
+    <a href="article.html#veverka_viki">Přečíst celý článek</a>
   </div>
 `;

@@ -16,8 +16,7 @@ const articles = {
   },
 };
 
-const searchParams = new URLSearchParams(window.location.search);
-const articleId = searchParams.get('article');
+const articleId = window.location.hash.slice(1);
 const articleData = articles[articleId];
 const mainElement = document.querySelector('main');
 
